@@ -1,0 +1,9 @@
+:root {
+  --hue: 100; /* Start HUE-værdi (grøn) */
+  --saturation: 50%; /* Start saturation-værdi (mætning) */
+}
+
+body {
+  height: 100vh;
+  background-color: hsl(var(--hue) var(--saturation) var(--l, 50%));
+}
